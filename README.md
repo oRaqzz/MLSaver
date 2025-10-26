@@ -8,22 +8,31 @@
 - Save trained models with simple commands  
 - Load previous model versions instantly  
 - List all saved versions  
-- Delete unwanted versions  
-- Works locally — no extra setup, no cloud required  
+- Delete unwanted versions
+- Prints model info
+- Works locally — no extra setup, no cloud required
 
 ---
 
 ## 🧠 Installation
 ```bash
-pip install MLSaver
+pip install mlsaver
+```
+
+## ⚙️ Importing MLSaver
+
+Import the class into your project:
+
+```python
+from mlsaver import MLSaver
+```
+Then create an instance:
+```python
+saver = MLSaver()
 ```
 
 ## ⚙️ Methods
 
-## Make an instance of MLSaver.
-```python
-saver = MLSaver()
-```
 
 | Method | Description | Example |
 |--------|--------------|----------|
